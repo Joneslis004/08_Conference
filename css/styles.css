@@ -453,14 +453,15 @@ main p {
   color: white;
 }
 .hero div h3 {
-  text-shadow: 0 0 2px #000;
+  text-shadow: 0 1 5px #000;
   font-weight: 700;
   font-size: 1.5rem;
 }
 .hero div p {
-  text-shadow: 0 0 2px #000;
+  text-shadow: 0 0 5px #000;
+  font-weight: 700;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .hero video {
   width: 100%;
