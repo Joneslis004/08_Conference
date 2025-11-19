@@ -1,0 +1,14 @@
+header,
+main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAV SHOULD ALWAYS BE FULL WIDTH */
+nav {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
