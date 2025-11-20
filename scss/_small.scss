@@ -152,28 +152,32 @@ main {
 .overlay {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.9); 
+  background-color: rgba(0, 0, 0, 0.8); 
   pointer-events: none; 
 }
 
   div {
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 10px;
     color: white;
+     padding: 0.5rem 0.5rem;
+  background-color: rgba(0, 0, 0, 1.0);
 
 
     h3 {
-      text-shadow: 0 1 5px #000;
+      text-shadow: 1 1 5px #000;
       font-weight: $boldWeight;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
+      margin-bottom: 0.2rem;
     }
 
     p {
       text-shadow: 0 0 5px #000;
       font-weight: $boldWeight;
       color: white;
-font-size: 1.0rem;
+      font-size: 0.9rem;
+      margin-top: 0;  
     }
   }
 
